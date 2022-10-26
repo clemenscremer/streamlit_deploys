@@ -74,7 +74,7 @@ if selected == "introduction":
                     
                     -----
                     """)
-    if st.session_state.page >= 2:
+    if st.session_state.page > 2:
         st.session_state.page = 0
         st.snow()
         
