@@ -153,15 +153,7 @@ if selected == "benefits":
   
  
 if selected == "example":
-    st.title("Basic example")
-    
-    st.title("This is my first app 👍")
-
-    st.markdown("let's add interactivity")
-    s = st.sidebar.selectbox("I am a slider",['a', 'b', 'c'])
-    st.write(f"The slider is currently at {s}")
-
-    st.write(pd.DataFrame(["a", "b", "c"]))
+    st.title("Nothing to see here")
 
 
 if selected == "what else":
@@ -182,10 +174,9 @@ if selected == "what else":
     st.markdown("""
             - dynamic scaling, working well on phones etc.    
             - customizable themes
-            - opengl plotting
+            - audio (player), video (player) support
+            - tons of plotting libraries
             - caching, session states and callback functions
-            - audio (player) support
-            - video (player) support
             -----
             """)
 
