@@ -37,7 +37,7 @@ if selected == "introduction":
         st.session_state['page'] = 0
 
     def increase_page():
-        if st.session_state.page < 3: 
+        if st.session_state.page < 2: 
 	        st.session_state.page += 1
     def decrease_page():
         if st.session_state.page > 0: 
@@ -74,9 +74,8 @@ if selected == "introduction":
                     
                     -----
                     """)
-    if st.session_state.page > 2:
-        st.session_state.page = 0
-        st.snow()
+    if st.session_state.page == 2:
+        st.balloons()
         
     c1, c2, c3, c4 = st.columns([4,.3,.3,4])        
     c2.button('<', on_click=decrease_page)
