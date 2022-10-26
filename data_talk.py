@@ -154,15 +154,13 @@ if selected == "benefits":
 if selected == "example":
     st.title("Basic example")
     
-    st.markdown("""
-                In this example we will:\n
-                0. import streamlit
-                1. write header
-                2. make interactive element
-                3. get output from interactive element
-                4. write output 
-                5. modify: e.g. change to slider to selectbox and put in sidebar
-                """)
+    st.title("This is my first app 👍")
+
+    st.markdown("let's add interactivity")
+    s = st.sidebar.selectbox("I am a slider",['a', 'b', 'c'])
+    st.write(f"The slider is currently at {s}")
+
+    st.write(pd.DataFrame(["a", "b", "c"]))
 
 
 if selected == "what else":
