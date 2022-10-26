@@ -51,6 +51,7 @@ if selected == "introduction":
         st.markdown("""
                     For instance to:             
                     - create (easily reusable) data exploration 
+                    - parameterize your model
                     - share your vision, 
                         - e.g. quickly prototype a tool to discuss and narrow down requirements and do **fast iterations in development** or 
                         - **convince people** of tools usefulness 
