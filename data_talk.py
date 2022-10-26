@@ -37,7 +37,7 @@ if selected == "introduction":
         st.session_state['page'] = 0
 
     def increase_page():
-        if st.session_state.page < 2: 
+        if st.session_state.page < 3: 
 	        st.session_state.page += 1
     def decrease_page():
         if st.session_state.page > 0: 
