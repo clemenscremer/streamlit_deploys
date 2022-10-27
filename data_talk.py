@@ -157,6 +157,14 @@ if selected == "benefits":
  
 if selected == "example":
     st.title("Nothing to see here")
+    st.title("My first app 👍")
+    st.markdown("some further **explanation**")
+
+    output = st.selectbox("this is a slider",["a", "b", "x"])
+    st.write(output)
+    
+    
+    
 
 
 if selected == "what else":
