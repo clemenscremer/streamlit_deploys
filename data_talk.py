@@ -25,7 +25,7 @@ with st.sidebar:
 
 
 if selected == "title":
-    st.title("Data Talk 12: Quickly create webapps wit Streamlit")
+    st.title("Data Talk 12: Quickly create webapps with Streamlit")
     st.subheader("Paul Daniel & Clemens Cremer")
     
     st.write("DHI T&I - Data & Analytics")
