@@ -175,11 +175,12 @@ if selected == "what else":
     
     st.subheader("advanced benefits")
     st.markdown("""
+            - super easy deployment
             - dynamic scaling, working well on phones etc.    
             - customizable themes
             - audio (player), video (player) support
             - tons of plotting libraries
-            - caching, session states and callback functions
+            - caching and session states
             - extensions via streamlit components (can be written in JavaScript, React, Vue,...)
             -----
             """)
