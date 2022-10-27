@@ -200,6 +200,7 @@ if selected == "what else":
             - by checking this very nice and comprehensive [article](https://auth0.com/blog/introduction-to-streamlit-and-streamlit-components/)
             - by using [cheat sheet](https://daniellewisdl-streamlit-cheat-sheet-app-ytm9sg.streamlitapp.com/)
             - looking at talks e.g. [Snowflake Build virtual conference](https://www.snowflake.com/build/)
+            - if you are interested in Pauls outlier detection and machine learning app you can currently find it in a [tsod branch on github](https://github.com/DHI/tsod/tree/active_learning).
             
             """)
 
