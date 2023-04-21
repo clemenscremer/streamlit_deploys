@@ -5,5 +5,5 @@ numpy
 matplotlib
 seaborn
 plotly
-bokeh
+bokeh == 2.4.3
 altair
